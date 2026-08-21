@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio Aula2</title>
+  </head>
+  <body>
+    <h1>Exercício da Aula 2</h1>
+    <form action="" method="post"></form>
+    <label for="idnome">
+      Digite seu nome:
+      <input type="text" name="nome" id="idnome" required />
+    </label>
+    <br />
+    <label for="idsenha">
+      Digite sua senha:
+      <input type="password" name="senha" id="idsenha" required />
+    </label>
+    <br />
+    <label for="idemail">
+      Digite seu e-mail:
+      <input type="text" name="e-mail" id="idemail" required />
+    </label>
+    <fieldset>
+      <legend>Selecione seu sexo:</legend>
+      <input type="radio" name="sexo" id="idmasc" checked /> Masculino <br />
+      <input type="radio" name="sexo" id="idfem" /> Feminino <br />
+      <input type="radio" name="sexo" id="idoutro" /> Outros <br />
+    </fieldset>
+    <br />
+    <br />
+    <fieldset>
+      <legend>Preferências de lazer</legend>
+      <input type="checkbox" name="prefers" id="idcine" /> Cinema <br />
+      <input type="checkbox" name="prefers" id="idteatr" /> Teatro <br />
+      <input type="checkbox" name="prefers" id="idesp" /> Esportes <br />
+      <input type="checkbox" name="prefers" id="idcam" /> Caminhada <br />
+    </fieldset>
+    <h2>Selecione seu bairro:</h2>
+    <select name="bairro" id="idbairro">
+      <option value="tatu">Tatuapé</option>
+      <option value="smp">São Miguel Paulista</option>
+      <option value="af">Anália Franco</option>
+      <option value="mooca">Mooca</option>
+    </select>
+
+    <br /><br />
+
+    <h2>Digite seus comentários</h2>
+    <textarea name="coment" id="idcoment" cols="30" rows="10"></textarea>
+
+    <br /><br />
+    <input type="submit" value="Enviar" />
+  </body>
+</html>
